@@ -12,8 +12,8 @@ API para gerenciar os dados dos Funcionários. É possível fazer a inclusão, a
 
 ## Configurar banco de dados MySQL
 
-Utilizamos o Docker para executar o MySQL neste exemplo. 
-Para aprender mais sobre Docker assista a nossa playlist sobre [Docker](https://www.docker.com/)
+Utilizamos o [Docker](https://www.docker.com/) para executar o MySQL neste exemplo. 
+
 
 Acesse a pasta docker e execute o comando:
 
