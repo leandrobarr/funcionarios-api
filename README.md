@@ -1,6 +1,6 @@
 # funcionarios-api
 
-API para gerenciar os dados dos Funcionários. É possível fazer a inclusão, alteração, consulta, listagem e exclusão de clientes. Neste projeto mostraremos como armazenar arquivos no MySQL.
+API para gerenciar os dados dos Funcionários. É possível fazer a inclusão, alteração, consulta, listagem e exclusão de funcionários. Neste projeto mostraremos como armazenar arquivos no MySQL.
 
 ## Pré-requisitos
 
