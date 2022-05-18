@@ -37,7 +37,8 @@ public class FuncionarioController {
     }
 
     @PostMapping()
-    public ResponseEntity<IncluirFuncionarioResponse> Incluir(@RequestParam String funcionarioData, @RequestParam("file") final MultipartFile file) throws IOException {
+    public ResponseEntity<IncluirFuncionarioResponse> Incluir(@RequestParam String funcionarioData, @RequestParam("file")
+    final MultipartFile file) throws IOException {
 
         final var incluirFuncionarioRequest = mapper.readValue(funcionarioData, IncluirFuncionarioRequest.class);
         incluirFuncionarioRequest.setFoto(file.getInputStream().readAllBytes());
@@ -50,7 +51,8 @@ public class FuncionarioController {
     }
 
     @PutMapping()
-    public ResponseEntity<Funcionario> atualizar(@RequestParam String funcionarioData, @RequestParam(value = "file", required = false) final MultipartFile file) throws IOException {
+    public ResponseEntity<Funcionario> atualizar(@RequestParam String funcionarioData, @RequestParam(value = "file", required = false)
+    final MultipartFile file) throws IOException {
         final var atualizarFuncionarioRequest = mapper.readValue(funcionarioData, AtualizarFuncionarioRequest.class);
 
         if (file != null) {
